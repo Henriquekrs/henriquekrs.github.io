@@ -10,14 +10,15 @@
 <style>
 
 body {
-    background: linear-gradient(125deg, #2f3e46,#354f52,#52796f );
-    margin-left: 300px;
-    margin-right: 300px;
+    background: linear-gradient(125deg, #263339,#354f52,#568378 );
+    margin-left: 221px;
+    margin-right: 230px;
 }
 
 .cabecalho {
     font-family: "Sarabun", sans-serif;
-    font-size: 50px;
+    font-weight: 700;
+    font-size: 60px;
     color: #ffffff9e;
     text-align: center;
     margin-top: 80px;
@@ -44,7 +45,43 @@ ul {
 }
 
 .cor-trybe {
-    color: #1eb720;
+    color: #004017;
+    padding: 12 18;
+    background-color: #568378;
+    border-radius: 5px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    margin: 37%;
+    margin-top: 5%;
+}
+
+.buton, .buton2, .buton3 {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-bottom: #ffffff;
+    background-color: #263339;
+    color: #ffffff9e;
+    font-family: "Sarabun", sans-serif;
+    font-size: 33px;
+    font-weight: 900;
+    line-height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container-botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 104%;
+    margin: auto;
+    gap: 20px;
 }
 
 
@@ -52,7 +89,7 @@ ul {
 <body>
     <h2 class="cabecalho">Gustavo Henrique Rodrigues Duarte</h2>
     <br>
-    <p id="#Meu_resumo"> Sou o Gustavo, tenho 24 anos, sou natural de Brasília, atualmente moro numa cidade no interior de Goiás chamada <em>Itaberaí</em>. Entusiasta de tecnologia, aspirante a programador, amante dos jogos, e não menos importante o mais novo aluno da maior e melhor <strong class="cor-trybe">Trybe!</strong></p>
+    <p id="Meu_resumo"> Sou o Gustavo, tenho 24 anos, sou natural de Brasília, atualmente moro numa cidade no interior de Goiás chamada <em>Itaberaí</em>. Entusiasta de tecnologia, aspirante a programador, amante dos jogos, e não menos importante o mais novo aluno da maior e melhor <strong class="cor-trybe">Trybe!</strong></p>
     <br>
 <h2 class="cabecalho-2">Minhas Habilidades !</h2>
     <br>
@@ -62,14 +99,13 @@ ul {
         <li>Em constante aprendizado</li>
     <br>
     </ul>
-    <a class="buton" href="#Meu_resumo">Habilidades</a>
-    <br>
-    <a href="https://flowgames.gg/" target="_blank">Meu blog favorito</a>
-    <br>
-    <a href="https://github.com/Henriquekrs" target="_blank">Meu Git Hub</a>
+    <div class="container-botoes">
+        <a class="buton" href="#Meu_resumo">Habilidades</a>
+        <a class="buton2" href="https://flowgames.gg/" target="_blank">Meu blog favorito</a>
+        <a class="buton3" href="https://github.com/Henriquekrs" target="_blank">Meu Git Hub</a>
+    </div>    
     <br>
     <br>
     <img src="gug.jpg" alt="Foto do aluno Gustavo" width="200px">
-    
 </body>
 </html>
